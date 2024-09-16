@@ -15,7 +15,7 @@ export default function Images(props) {
               key={index} // Add the key to avoid React warnings
               src={image.src.original} // Use the correct image URL
               alt={image.alt} // Alt text for accessibility
-              style={{ maxWidth: "100%", height: "auto", transform: "scale(0.3)" }} // Image styling
+              style={{ maxWidth: "100%", height: "auto", transform: "scale(0.6)" }} // Image styling
             />
               </a>
              
