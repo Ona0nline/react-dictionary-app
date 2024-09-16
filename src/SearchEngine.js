@@ -1,9 +1,17 @@
 import React, {useState} from "react";
+import axios from "axios";
 import "./SearchEngine.css"
 
 export default function SearchEngine(){
-  
-  let[word,setWord] = useState("")
+  const[word,setWord] = useState("")
+
+  function handleResponse(response){
+    console.log(response)
+  }
+
+  const url = `https://api.shecodes.io/dictionary/v1/define?word=${word}&key=444t95o4afedabca0957fcb3605bfd54`
+  axios.get(url).then(handleResponse)
+
 
   function handleSubmit(event){
     event.preventDefault();
