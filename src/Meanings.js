@@ -12,7 +12,7 @@ export default function Meanings(props){
         displayedMeanings.map((meaning, index) => (
           <div key={index}>
             <strong>Definition {index + 1}:</strong> {meaning.definition}<br/>
-            <Synonyms synonyms={meaning.synonyms[0]}/><br/>
+            <Synonyms synonyms={meaning.synonyms}/><br/>
             {/* <strong>Synonym {index + 1}:</strong> {meaning.synonyms[0]}<br/><br/> */}
 
           </div>

@@ -3,16 +3,19 @@ import axios from "axios";
 import Results from "./Results"
 import "./SearchEngine.css"
 import Meanings from "./Meanings";
+import Phonetics from "./Phonetics";
 
 export default function SearchEngine(){
   const[word,setWord] = useState("")
   const[result,setResult] = useState("")
   const[meaning, setMeaning] = useState([])
+  const[phonetics,setPhonetics] = useState("")
 
   function handleResponse(response){
-    console.log(response.data.meanings)
+    console.log(response.data)
     setResult(response.data.meanings[0].definition)
     setMeaning(response.data.meanings)
+    setPhonetics(response.data.phonetic)
 
   }
 
@@ -37,6 +40,7 @@ export default function SearchEngine(){
 
   </form>
   <Results word={word} results={result}/>
+  <Phonetics phonetics={phonetics}/>
   <Meanings meanings={meaning}/>
 
     </div>

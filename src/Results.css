@@ -15,3 +15,18 @@ display: flex;
   border-radius: 10px;
 
 }
+
+.phonetic{
+  margin: 20px 120px;
+  padding:10px;
+  background-color: bisque;
+}
+
+.inline-synonym{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.synonym{
+  margin-right: 15px;
+}
