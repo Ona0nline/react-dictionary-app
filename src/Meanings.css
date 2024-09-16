@@ -1,0 +1,16 @@
+.meaning{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.meaning-box{
+  background-color: azure;
+    width:500px;
+  margin-top:90px auto;
+  padding:10px;
+  border-radius: 10px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}

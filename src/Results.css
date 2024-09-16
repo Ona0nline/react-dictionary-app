@@ -1,0 +1,17 @@
+.result{
+ 
+display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.result-box{
+
+   background-color: azure;
+    width:500px;
+  margin-top:90px auto;
+  padding:10px;
+  border-radius: 10px;
+
+}
