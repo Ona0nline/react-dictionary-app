@@ -1,17 +1,14 @@
+body{
+  background-image: url("./Dictionary\ app.png");
+  background-size: cover;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +21,22 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-size: 60px;
+  color: bisque;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.highlight1{
+  background-color: rgb(194, 92, 109);
+  padding:6px;
+}
+
+.highlight2{
+  background-color: #E7BB41;
+    padding: 6px;
+}
+
+.highlight3{
+  background-color: #44A1A0;
+  padding: 6px;
 }
