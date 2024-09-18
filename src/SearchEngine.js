@@ -50,7 +50,7 @@ export default function SearchEngine(){
   return <div>
     <form className="form" onSubmit={handleSubmit}>
     <input className="search" onChange={handleNewWord} type="search" placeholder="What's the word?" value={word} />
-    <input className="submit" type="submit" value="Definition"/>
+    <input className="submit" type="submit" value="Search"/>
 
   </form>
   <Results word={word} results={result}/>
